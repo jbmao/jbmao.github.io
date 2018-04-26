@@ -3,22 +3,25 @@
 <head>
   <meta charset="utf-8">
   
-  <title>categories | Morse&#39;s Blog</title>
+  <title>Git博客配置 | Morse&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <meta name="keywords" content="Morse,Morse's Blog" />
   
-  <meta name="description" content="Coding Hundreds Of Times Its Righteousness">
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://blog.jbmao.net/categories/index.html">
+  <meta name="description" content="##讲述我的主页配置 git配置 新建一个 repository 流程跟上文一样 直到copy主题停止 修改hexo配置文件_config.yml  注：url网址  deploy 配置git地址 然后把你自己写的html放在themes/your_themes_name/source/这个目录里的文件，在你每次hexo g的时候都会全部复制，所以接下来就简单了，只需要把你的项目放到这个里面就OK">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git博客配置">
+<meta property="og:url" content="http://blog.jbmao.net/2018/04/20/Git博客配置/index.html">
 <meta property="og:site_name" content="Morse&#39;s Blog">
-<meta property="og:description" content="Coding Hundreds Of Times Its Righteousness">
+<meta property="og:description" content="##讲述我的主页配置 git配置 新建一个 repository 流程跟上文一样 直到copy主题停止 修改hexo配置文件_config.yml  注：url网址  deploy 配置git地址 然后把你自己写的html放在themes/your_themes_name/source/这个目录里的文件，在你每次hexo g的时候都会全部复制，所以接下来就简单了，只需要把你的项目放到这个里面就OK">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:updated_time" content="2018-04-18T07:17:09.911Z">
+<meta property="og:image" content="http://oerolc7og.bkt.clouddn.com/images/miho/theme/github.jpg">
+<meta property="og:updated_time" content="2018-04-26T08:17:52.426Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
-<meta name="twitter:description" content="Coding Hundreds Of Times Its Righteousness">
+<meta name="twitter:title" content="Git博客配置">
+<meta name="twitter:description" content="##讲述我的主页配置 git配置 新建一个 repository 流程跟上文一样 直到copy主题停止 修改hexo配置文件_config.yml  注：url网址  deploy 配置git地址 然后把你自己写的html放在themes/your_themes_name/source/这个目录里的文件，在你每次hexo g的时候都会全部复制，所以接下来就简单了，只需要把你的项目放到这个里面就OK">
+<meta name="twitter:image" content="http://oerolc7og.bkt.clouddn.com/images/miho/theme/github.jpg">
   
   
     <link rel="icon" href="/favicon.ico">
@@ -109,20 +112,27 @@
     </div>
 </header>
       <div class="outer">
-        <section id="main" class="body-wrap"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <section id="main" class="body-wrap"><article id="post-Git博客配置" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="post-title" itemprop="name">
-      categories
+      Git博客配置
     </h1>
     <div class="post-title-bar">
       <ul>
           
+              <li>
+                  <i class="fa fa-book"></i>
+                  
+                      <a href="/categories/Coding/">Coding</a>
+                  
+              </li>
+          
         <li>
-          <i class="fa fa-calendar"></i>  2018-04-18
+          <i class="fa fa-calendar"></i>  2018-04-20
         </li>
         <li>
           <i class="fa fa-eye"></i>
@@ -135,14 +145,27 @@
           
       </header>
     
-    <div class="article-entry " itemprop="articleBody">
+    <div class="article-entry post-content" itemprop="articleBody">
       
             
-            
+            <p>##讲述我的主页配置</p>
+<h3 id="git配置"><a href="#git配置" class="headerlink" title="git配置"></a>git配置</h3><ul>
+<li>新建一个 repository 流程跟上文一样 直到copy主题停止</li>
+<li>修改hexo配置文件_config.yml  注：url网址  deploy 配置git地址</li>
+<li>然后把你自己写的html放在themes/your_themes_name/source/这个目录里的文件，在你每次hexo g的时候都会全部复制，所以接下来就简单了，只需要把你的项目放到这个里面就OK了（自定义的index.html得在哈，也就是source目录做你项目的根目录）</li>
+<li>在你自己写的html文件最上面写上：layout: false —  上传 </li>
+<li>防止html被 hexo的source文件夹中会默认全部渲染，在hexo根目录下的_config.yml 配置skip_render:<br>###git技巧</li>
+<li>在 GitHub.com 上删除某个 Repository 中的某个文件夹 这里指 s 文件夹<blockquote>
+<p>git rm -r –cached s<br>git commit -m ‘delete s dir<br>git push -u origin master</p>
+</blockquote>
+<h4 id="插入图片"><a href="#插入图片" class="headerlink" title="插入图片"></a>插入图片</h4></li>
+<li><img src="http://oerolc7og.bkt.clouddn.com/images/miho/theme/github.jpg" alt="miho"></li>
+</ul>
+
             <div class="post-copyright">
     <div class="content">
-        <p>最后更新： 2018年04月18日 15:17</p>
-        <p>原始链接： <a class="post-url" href="/categories/index.html" title="categories">http://blog.jbmao.net/categories/index.html</a></p>
+        <p>最后更新： 2018年04月26日 16:17</p>
+        <p>原始链接： <a class="post-url" href="/2018/04/20/Git博客配置/" title="Git博客配置">http://blog.jbmao.net/2018/04/20/Git博客配置/</a></p>
         <footer>
             <a href="http://blog.jbmao.net">
                 <img src="/images/logo.png" alt="Morse">
@@ -199,7 +222,7 @@
     <div class="post-share-list" id="share-list">
         <ul class="share-icons">
           <li>
-            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.jbmao.net/categories/&title=《categories》 — Morse's Blog&pic=http://blog.jbmao.netimages/logo.png" data-title="微博">
+            <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://blog.jbmao.net/2018/04/20/Git博客配置/&title=《Git博客配置》 — Morse's Blog&pic=/images/85.jpg" data-title="微博">
               <i class="fa fa-weibo"></i>
             </a>
           </li>
@@ -209,22 +232,22 @@
             </a>
           </li>
           <li>
-            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.jbmao.net/categories/&title=《categories》 — Morse's Blog&source=Coding Hundreds Of Times Its Righteousness" data-title="QQ">
+            <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://blog.jbmao.net/2018/04/20/Git博客配置/&title=《Git博客配置》 — Morse's Blog&source=Coding Hundreds Of Times Its Righteousness" data-title="QQ">
               <i class="fa fa-qq"></i>
             </a>
           </li>
           <li>
-            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.jbmao.net/categories/" data-title="Facebook">
+            <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.jbmao.net/2018/04/20/Git博客配置/" data-title="Facebook">
               <i class="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《categories》 — Morse's Blog&url=http://blog.jbmao.net/categories/&via=http://blog.jbmao.net" data-title="Twitter">
+            <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《Git博客配置》 — Morse's Blog&url=http://blog.jbmao.net/2018/04/20/Git博客配置/&via=http://blog.jbmao.net" data-title="Twitter">
               <i class="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://blog.jbmao.net/categories/" data-title="Google+">
+            <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://blog.jbmao.net/2018/04/20/Git博客配置/" data-title="Google+">
               <i class="fa fa-google-plus"></i>
             </a>
           </li>
@@ -234,7 +257,7 @@
 <div class="post-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;" id="wxShare-close">×</a>
     <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://blog.jbmao.net/categories/" alt="微信分享二维码">
+    <img src="//api.qrserver.com/v1/create-qr-code/?data=http://blog.jbmao.net/2018/04/20/Git博客配置/" alt="微信分享二维码">
 </div>
 
 <div class="mask"></div>
@@ -243,6 +266,13 @@
         <ul class="article-footer-menu">
             
             
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/git/" class="color4">git</a>
+      
+  </li>
+
         </ul>
         
     </footer>
@@ -250,6 +280,32 @@
 </article>
 
 
+    <aside class="post-toc-pos post-toc-top" id="post-toc">
+        <nav class="post-toc-wrap">
+            <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#git配置"><span class="post-toc-text">git配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#插入图片"><span class="post-toc-text">插入图片</span></a></li></ol></li></ol>
+        </nav>
+    </aside>
+    
+
+<nav id="article-nav">
+  
+    <a href="/2018/04/20/茶馆/" id="article-nav-newer" class="article-nav-link-wrap">
+
+      <span class="article-nav-title">
+        <i class="fa fa-hand-o-left" aria-hidden="true"></i>
+        
+          茶馆
+        
+      </span>
+    </a>
+  
+  
+    <a href="/2018/04/20/installation-configuration/" id="article-nav-older" class="article-nav-link-wrap">
+      <span class="article-nav-title">MiHo-主题安装和配置详情</span>
+      <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+    </a>
+  
+</nav>
 
 
 
