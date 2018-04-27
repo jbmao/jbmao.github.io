@@ -1,4 +1,4 @@
-﻿body {
+body {
   width: 100%;
 }
 body:before,
@@ -572,7 +572,7 @@ body {
   width: 600px;
   margin: 20px auto;
   padding: 10px 0;
-  color: #FFF;
+  color: #666;
   letter-spacing: 5px;
 }
 .header-nav {
